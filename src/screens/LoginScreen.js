@@ -3,15 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
-import { AiOutlineExclamationCircle } from 'react-icons/ai';
 import { BsEye, BsEyeSlash } from 'react-icons/bs';
 import { Link, useNavigate } from 'react-router-dom';
 import { apiUrl } from '../Variables';
 import ErrorText from '../components/ErrorText';
 import MiniLoading from '../components/MiniLoading';
 import { useAppContext } from '../context/AppContext';
-import Logo from '../images/aceva.png';
-import loginThumb from '../images/bg/login-thumb-2.png';
+import Logo from '../images/chalaman.png';
 
 function LoginScreen({toggleLoggedInState}) {
 
@@ -114,9 +112,9 @@ function LoginScreen({toggleLoggedInState}) {
                 <div className="header-sidebar-logo">
                   <img src={Logo} alt="logo" />
                 </div>
-                <div className="form-title login-title">
+                {/* <div className="form-title login-title">
                   <h2>Admin Login</h2>
-                </div>
+                </div> */}
 
               </div>
 

@@ -17,7 +17,7 @@ const HeaderDropdown = () => {
       key: '1',
       icon: <MdLogout />,
       label: (
-        <Link to="/logout"> Logout</Link>
+        <Link to="/login"> Logout</Link>
       ),
     },
   ];

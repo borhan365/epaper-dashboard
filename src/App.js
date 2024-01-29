@@ -44,10 +44,6 @@ function App() {
           }
         />
         <Route
-          path="/login"
-          element={<LoginScreen toggleLoggedInState={toggleLoggedInState} />}
-        />
-        <Route
           path="/list-of-users"
           element={<ListOfUsers toggleLoggedInState={toggleLoggedInState} />}
         />
@@ -66,6 +62,10 @@ function App() {
         <Route
           path="/advertisement"
           element={<AdvertisementScreen toggleLoggedInState={toggleLoggedInState} />}
+        />
+        <Route
+          path="/login"
+          element={<LoginScreen toggleLoggedInState={toggleLoggedInState} />}
         />
         <Route
           path="*"
