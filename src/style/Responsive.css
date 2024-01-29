@@ -1,0 +1,196 @@
+/* This is for only desktop version */
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none;
+  }
+  .mobile-sidebar-cross {
+    display: none;
+  }
+  .mobile-version-kpi-wrapper {
+    display: none;
+  }
+  .landing-header-toggle {
+    display: none;
+  }
+  .burger-menu-icon {
+  }
+}
+/* Media query for extra-large devices */
+@media screen and (min-width: 1200px) {
+  /* Your CSS rules for extra-large devices go here */
+  .landing-header-wrapper {
+    max-width: 70%;
+  }
+  /* Add more styles as needed */
+}
+
+/* This is for mobile or small devices version */
+@media only screen and (max-width: 768px) {
+  .mobile-version-kpi-wrapper {
+    display: none;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  header {
+    padding: 0px 10px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  aside.sidebar {
+    width: 0px;
+  }
+  aside.sidebar.active {
+    width: 80% !important;
+  }
+  .featured-status-wrapper,
+  .chart-wrapper {
+    flex-direction: column;
+  }
+  .chart-wrapper {
+    margin-top: 15px;
+    grid-gap: 10px;
+    display: none;
+  }
+  .date-filter {
+    width: 100%;
+  }
+  .p-20 {
+    padding: 0px;
+  }
+  .analytics-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .table-container {
+    margin: 0px;
+  }
+  .table-filter-container {
+    flex-direction: column;
+    display: none;
+  }
+  .table-filter {
+    flex-direction: column;
+  }
+  .create-user-form {
+    max-width: 95%;
+  }
+  .pagination-wrapper {
+    margin-top: unset;
+  }
+  .integrate-container {
+    padding: 0;
+  }
+  .integrate-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .settings-container {
+  }
+  .settings-wrapper form {
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main {
+    width: 100%;
+    margin: 0px;
+  }
+  main.active {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .body-wrapper {
+    padding: 10px;
+    width: 100%;
+  }
+  .search-box input {
+    height: 38px;
+    width: 230px;
+  }
+  .breadcrumbs-and-filter {
+    justify-content: flex-end;
+  }
+  .featured-status-wrapper {
+    margin-top: 10px;
+    grid-gap: 10px;
+    overflow-x: scroll;
+  }
+  .search-box {
+    display: none;
+  }
+  .chart-svg-wrapper {
+    height: 170px;
+    overflow: hidden;
+  }
+  aside.sidebar.mobile-active {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  .not-found-content h1 {
+    font-size: 120px;
+    line-height: 160px;
+  }
+  .not-found-wrapper {
+    max-width: 95%;
+  }
+  /* admin */
+  .chat-body-sidebar {
+    /* display: none; */
+    min-width: unset;
+    min-height: unset;
+    max-height: unset;
+    height: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+  .admin-header {
+    /* position: fixed; */
+    width: 100%;
+    flex-direction: row;
+    min-width: unset;
+    max-width: unset;
+    height: unset;
+    min-height: unset;
+    z-index: 1;
+    flex-direction: column;
+    padding: unset;
+  }
+  .admin-page-wrapper {
+    height: unset;
+    flex-direction: column;
+  }
+  .admin-header ul:last-child {
+    display: none;
+  }
+  .admin-header ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    grid-gap: 0px;
+    flex-direction: revert;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    bottom: 0px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    height: 60px;
+  }
+  
+  header.active {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 3px 0px lightgray;
+    z-index: 999;
+  }
+
+  .dashboard-kpi-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+  
+}
